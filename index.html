@@ -89,25 +89,96 @@
       </div>
       <div class="filter-form">
         <form>
+          <span class="filter-right">* required</span>
           <div class="filter-selections">
             <ul class="menu medium-horizontal vertical">
               <li>
-
+                <input type="radio" name="searchQuery" value="iGDatabase" id="iGDatabase"><label for="iGDatabase">&nbsp;IG Database</label>
               </li>
               <li>
-
+                <input type="radio" name="searchQuery" value="corporate" id="corporate"><label for="corporate">&nbsp;Corporate</label>
               </li>
               <li>
-
+                <input type="radio" name="searchQuery" value="submittals" id="submittals"><label for="submittals">&nbsp;Submittals</label>
+              </li>
+              <li>
+                <input type="radio" name="searchQuery" value="hotbooks" id="hotbooks"><label for="hotbooks">&nbsp;Hotbooks</label>
               </li>
             </ul>
           </div>
-          <span class="filter-right">* required</span>
+          <div class="row row-negative margin-top-15">
+            <div class="small-12 medium-6 column">
+              <label>
+                <label>*Office
+                  <select placeholder="select" class="important-field">
+                    <option value="husker">Select</option>
+                    <option value="starbuck">Option 2</option>
+                    <option value="hotdog">Option 3</option>
+                    <option value="apollo">Option 4</option>
+                  </select>
+                </label>
+              </label>
+            </div>
+            <div class="small-12 medium-6 column">
+              <label>
+                <label>*Recruiter
+                  <select placeholder="select" class="important-field">
+                    <option value="husker">Select</option>
+                    <option value="starbuck">Option 2</option>
+                    <option value="hotdog">Option 3</option>
+                    <option value="apollo">Option 4</option>
+                  </select>
+                </label>
+              </label>
+            </div>
+          </div>
+          <div class="row row-negative margin-top-15">
+            <div class="small-12 column">
+              <label> Keyword Search
+                <input type="text" placeholder="Type your keywords...">
+              </label>
+            </div>
+          </div>
+          <div class="row row-negative margin-top-15">
+            <div class="small-12 medium-6 column">
+              <label> First Name
+                <input type="text" placeholder="">
+              </label>
+            </div>
+            <div class="small-12 medium-6 column">
+              <label> Last Name
+                <input type="text" placeholder="">
+              </label>
+            </div>
+          </div>
+          <div class="row row-negative margin-top-15">
+            <div class="small-12 medium-6 column">
+              <label> Email
+                <input type="text" placeholder="">
+              </label>
+            </div>
+            <div class="small-12 medium-6 column">
+              <label> Work Eligibility
+                <select placeholder="select" class="important-field">
+                  <option value="husker">Select</option>
+                  <option value="starbuck">Option 2</option>
+                  <option value="hotdog">Option 3</option>
+                  <option value="apollo">Option 4</option>
+                </select>
+              </label>
+            </div>
+          </div>
         </form>
       </div>
     </div>
+    <!-- RESULTS -->
+    <div class="results-wrapper">
+
+    </div>
   </div>
 </div>
+
+
 
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.min.js"></script>
