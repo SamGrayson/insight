@@ -1,0 +1,97 @@
+.nav-wrapper {
+    background-color: $insightMain;
+    width: 100%;
+    position: relative;
+    height: 75px;
+    color: $insightLightGray;
+    font-size: 14px;
+    font-weight: 500;
+    .nav-active {
+      color: white;
+    }
+    a {
+      color: $insightLightGray;
+      &:hover {
+        color: #fff;
+      }
+    }
+    .top-bar {
+      height: 100%;
+      width: 100%;
+    }
+    .nav-title {
+      width: 175px;
+      padding: 15px 20px;
+      height: 100%;
+      float: left;
+      .title {
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+      }
+      line-height: normal;
+    }
+    .nav-left {
+      height: 100%;
+      padding: 15px;
+    }
+    .nav-right {
+      height: 100%;
+      float: right;
+      padding: 13px 0;
+      margin-right: 20px;
+    }
+    .profile-pic {
+      border-radius: 50%;
+      border: 3px solid $insightLightGray;
+      height: 50px;
+      width: 50px;
+      margin-left:10px;
+      &:hover {
+        border: 3px solid white;
+        cursor: pointer;
+      }
+      img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+      }
+    }
+    .insight-small-nav {
+      outline: none;
+      a {
+        &:focus {
+          outline: none;
+        }
+      }
+      .insight-dropdown-nav {
+        a {
+          &:hover {
+            color: $insightMain;
+          }
+        }
+      }
+    }
+}
+
+.nav-page-title {
+  height: 50px;
+  border: 1px solid $insightMain;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500px;
+  padding: 15px;
+}
+
+/*********************
+PARAMS
+*********************/
+
+@media screen and (max-width: 673px) {
+  .insight-medium-nav {
+    display: none !important;
+  }
+  .insight-small-nav {
+    display: inline-block !important;
+  }
+}

@@ -1,0 +1,57 @@
+/***************
+SASS VARIABLES
+***************/
+
+$insightMain: #3C3C3C;
+$insightLightGray: #878787;
+$insightBlue: #578EC2;
+
+h1, h2, h3, h4, h5, h6, li, ul {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  min-width: 340px;
+}
+
+a {
+  color: $insightBlue;
+}
+
+.button {
+  border-color: $insightBlue;
+  color: $insightBlue;
+}
+
+.button.hollow {
+  border-color: $insightBlue;
+  color: $insightBlue;
+}
+
+/**************************
+PARTIALS
+**************************/
+
+@import 'header';
+@import 'navigation';
+@import 'results';
+
+/**************************
+GLOBALS
+**************************/
+.content-wrapper {
+  padding: 0 50px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .content-wrapper {
+    padding: 0 15px;
+  }
+}

@@ -1,0 +1,153 @@
+/***************
+SASS VARIABLES
+***************/
+h1, h2, h3, h4, h5, h6, li, ul {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  min-width: 340px; }
+
+a {
+  color: #578EC2; }
+
+.button {
+  border-color: #578EC2;
+  color: #578EC2; }
+
+.button.hollow {
+  border-color: #578EC2;
+  color: #578EC2; }
+
+/**************************
+PARTIALS
+**************************/
+.nav-wrapper {
+  background-color: #3C3C3C;
+  width: 100%;
+  position: relative;
+  height: 75px;
+  color: #878787;
+  font-size: 14px;
+  font-weight: 500; }
+  .nav-wrapper .nav-active {
+    color: white; }
+  .nav-wrapper a {
+    color: #878787; }
+    .nav-wrapper a:hover {
+      color: #fff; }
+  .nav-wrapper .top-bar {
+    height: 100%;
+    width: 100%; }
+  .nav-wrapper .nav-title {
+    width: 175px;
+    padding: 15px 20px;
+    height: 100%;
+    float: left;
+    line-height: normal; }
+    .nav-wrapper .nav-title .title {
+      color: white;
+      font-size: 22px;
+      font-weight: bold; }
+  .nav-wrapper .nav-left {
+    height: 100%;
+    padding: 15px; }
+  .nav-wrapper .nav-right {
+    height: 100%;
+    float: right;
+    padding: 13px 0;
+    margin-right: 20px; }
+  .nav-wrapper .profile-pic {
+    border-radius: 50%;
+    border: 3px solid #878787;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px; }
+    .nav-wrapper .profile-pic:hover {
+      border: 3px solid white;
+      cursor: pointer; }
+    .nav-wrapper .profile-pic img {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%; }
+  .nav-wrapper .insight-small-nav {
+    outline: none; }
+    .nav-wrapper .insight-small-nav a:focus {
+      outline: none; }
+    .nav-wrapper .insight-small-nav .insight-dropdown-nav a:hover {
+      color: #3C3C3C; }
+
+.nav-page-title {
+  height: 50px;
+  border: 1px solid #3C3C3C;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500px;
+  padding: 15px; }
+
+/*********************
+PARAMS
+*********************/
+@media screen and (max-width: 673px) {
+  .insight-medium-nav {
+    display: none !important; }
+
+  .insight-small-nav {
+    display: inline-block !important; } }
+.content-header {
+  height: 60px;
+  border-bottom: 1px solid #878787;
+  padding: 18px 0;
+  position: relative; }
+  .content-header .content-title {
+    float: left; }
+    .content-header .content-title span {
+      font-weight: 500; }
+  .content-header .content-actions {
+    float: right; }
+    .content-header .content-actions a {
+      font-weight: 500; }
+    .content-header .content-actions i {
+      font-size: 21px;
+      margin-left: 20px;
+      position: relative;
+      top: 3px; }
+
+.content-filter {
+  width: 100%;
+  margin-top: 15px; }
+  .content-filter .top-filter {
+    height: 50px;
+    width: 100%; }
+    .content-filter .top-filter .filter-title {
+      float: left;
+      padding: 5px 0; }
+    .content-filter .top-filter .filter-actions {
+      float: right;
+      text-align: right; }
+  .content-filter .filter-form {
+    position: relative;
+    width: 100%; }
+    .content-filter .filter-form .filter-right {
+      position: absolute;
+      top: 3px;
+      right: 0;
+      color: #878787; }
+
+/**************************
+GLOBALS
+**************************/
+.content-wrapper {
+  padding: 0 50px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto; }
+
+@media screen and (max-width: 39.9375em) {
+  .content-wrapper {
+    padding: 0 15px; } }
+
+/*# sourceMappingURL=styles.css.map */
