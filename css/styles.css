@@ -14,7 +14,7 @@ html, body {
 a {
   color: #578EC2; }
   a:focus {
-    outline-color: none; }
+    outline: none; }
 
 .button {
   border-color: #578EC2;
