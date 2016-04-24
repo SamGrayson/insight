@@ -13,6 +13,8 @@ html, body {
 
 a {
   color: #578EC2; }
+  a:focus {
+    outline-color: none; }
 
 .button {
   border-color: #578EC2;

@@ -27,6 +27,9 @@ html, body {
 
 a {
   color: $insightBlue;
+  &:focus {
+    outline-color: none;
+  }
 }
 
 .button {
