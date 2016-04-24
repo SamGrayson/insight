@@ -353,6 +353,12 @@ PARAMS
 /**************************
 GLOBALS
 **************************/
+.page-footer {
+  background-color: #3C3C3C;
+  padding: 15px;
+  height: 50px;
+  color: #878787; }
+
 .content-wrapper {
   padding: 0 50px;
   max-width: 1280px;

@@ -50,6 +50,13 @@ PARTIALS
 /**************************
 GLOBALS
 **************************/
+.page-footer {
+  background-color: $insightMain;
+  padding:15px;
+  height: 50px;
+  color:$insightLightGray;
+}
+
 .content-wrapper {
   padding: 0 50px;
   max-width: 1280px;
