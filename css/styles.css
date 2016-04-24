@@ -149,6 +149,207 @@ PARAMS
     .content-filter .filter-selections input {
       margin-bottom: 15px; }
 
+.results-wrapper {
+  margin-top: 75px;
+  width: 100%; }
+  .results-wrapper .results-search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0 100px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #878787; }
+    .results-wrapper .results-search button {
+      background-color: #C8DAEB;
+      border-color: #578EC2;
+      color: black; }
+  .results-wrapper .results-title {
+    padding: 15px; }
+
+.results-content .result-card-dark {
+  margin-bottom: 15px;
+  border: 1px solid #878787;
+  width: 100%; }
+  .results-content .result-card-dark .card-title {
+    background-color: #878787;
+    padding: 10px 20px;
+    height: 50px; }
+    .results-content .result-card-dark .card-title .title {
+      color: #F8C103;
+      font-size: 22px;
+      font-weight: 600; }
+    .results-content .result-card-dark .card-title .card-actions {
+      color: #CACACA;
+      font-size: 22px;
+      font-weight: 600; }
+      .results-content .result-card-dark .card-title .card-actions span:hover {
+        color: #fdfdfd;
+        cursor: pointer; }
+  .results-content .result-card-dark .card-info {
+    border-bottom: 1px solid #878787; }
+    .results-content .result-card-dark .card-info > div {
+      padding: 15px 25px;
+      height: 100%; }
+    .results-content .result-card-dark .card-info .card-contact {
+      border-right: 1px solid #878787; }
+    .results-content .result-card-dark .card-info span {
+      color: #A24741;
+      font-weight: 500; }
+      .results-content .result-card-dark .card-info span a {
+        color: #A24741;
+        font-weight: 500; }
+    .results-content .result-card-dark .card-info .info-title {
+      font-size: 18px;
+      padding-bottom: 15px;
+      border-bottom: 1px dotted #878787; }
+    .results-content .result-card-dark .card-info .more-info {
+      font-size: 14px;
+      margin-bottom: 25px; }
+  .results-content .result-card-dark .card-feed {
+    background-color: #F9F9F9;
+    padding: 20px 0;
+    font-size: 14px; }
+    .results-content .result-card-dark .card-feed .card-feed-main {
+      overflow-y: scroll;
+      height: 300px;
+      width: 100%;
+      padding-right: 15px; }
+      .results-content .result-card-dark .card-feed .card-feed-main .card-post {
+        min-height: 85px;
+        padding: 10px 0;
+        border-bottom: 1px dotted #878787; }
+        .results-content .result-card-dark .card-feed .card-feed-main .card-post .card-post-left {
+          font-weight: 500; }
+          .results-content .result-card-dark .card-feed .card-feed-main .card-post .card-post-left span {
+            color: #A24741;
+            font-weight: 500; }
+.results-content .result-card-light {
+  margin-bottom: 15px;
+  border: 1px solid #878787;
+  width: 100%; }
+  .results-content .result-card-light .card-title {
+    background-color: #fff;
+    border-bottom: 1px solid #878787;
+    padding: 10px 20px;
+    height: 50px;
+    position: relative; }
+    .results-content .result-card-light .card-title .title {
+      font-size: 22px;
+      font-weight: 600; }
+      .results-content .result-card-light .card-title .title select {
+        height: 30px;
+        font-size: 12px;
+        width: 150px;
+        margin: 0; }
+    .results-content .result-card-light .card-title .card-left-actions {
+      display: inline-block;
+      color: #CACACA;
+      position: relative;
+      font-size: 16px; }
+      .results-content .result-card-light .card-title .card-left-actions .middle-button {
+        border-left: 1px solid #878787;
+        border-right: 1px solid #878787; }
+      .results-content .result-card-light .card-title .card-left-actions button {
+        display: inline-block;
+        position: relative;
+        font-size: 22px;
+        width: 45px; }
+        .results-content .result-card-light .card-title .card-left-actions button:hover {
+          color: #878787;
+          cursor: pointer; }
+    .results-content .result-card-light .card-title .card-actions {
+      color: #CACACA;
+      font-size: 22px;
+      font-weight: 600;
+      position: relative;
+      top: -2px; }
+      .results-content .result-card-light .card-title .card-actions .view {
+        border-color: #029AE5;
+        color: #029AE5; }
+        .results-content .result-card-light .card-title .card-actions .view:hover {
+          background-color: #029AE5;
+          color: #fff;
+          cursor: pointer; }
+      .results-content .result-card-light .card-title .card-actions .edit {
+        border-color: #57D05C;
+        color: #57D05C; }
+        .results-content .result-card-light .card-title .card-actions .edit:hover {
+          background-color: #57D05C;
+          color: #fff;
+          cursor: pointer; }
+      .results-content .result-card-light .card-title .card-actions .group-right {
+        display: inline-block;
+        border-left: 1px solid #878787;
+        padding-left: 6px; }
+      .results-content .result-card-light .card-title .card-actions button {
+        display: inline-block;
+        position: relative;
+        font-size: 18px;
+        width: 33px;
+        border: 1px solid #878787;
+        border-radius: 50%;
+        padding: 6px;
+        margin: 0 3px; }
+        .results-content .result-card-light .card-title .card-actions button:hover {
+          color: #878787;
+          cursor: pointer; }
+  .results-content .result-card-light .card-info {
+    border-bottom: 1px solid #878787; }
+    .results-content .result-card-light .card-info > div {
+      padding: 15px 25px;
+      height: 100%; }
+    .results-content .result-card-light .card-info .card-contact {
+      border-right: 1px solid #878787;
+      background-color: #F9F9F9; }
+    .results-content .result-card-light .card-info span {
+      color: #029AE5;
+      font-weight: 500; }
+      .results-content .result-card-light .card-info span a {
+        color: #029AE5;
+        font-weight: 500; }
+    .results-content .result-card-light .card-info .info-title {
+      font-size: 18px;
+      padding-bottom: 5px;
+      font-weight: 600; }
+    .results-content .result-card-light .card-info .screening-status {
+      border-bottom: 1px solid #878787; }
+    .results-content .result-card-light .card-info .more-info {
+      font-size: 14px;
+      margin-bottom: 25px; }
+  .results-content .result-card-light .last-contact {
+    padding: 12px 15px;
+    border-bottom: 1px solid #878787; }
+    .results-content .result-card-light .last-contact span {
+      color: #029AE5;
+      font-weight: 500; }
+  .results-content .result-card-light .card-feed {
+    background-color: #F9F9F9;
+    padding: 20px 0;
+    font-size: 14px; }
+    .results-content .result-card-light .card-feed .card-feed-main {
+      overflow-y: scroll;
+      height: 300px;
+      width: 100%;
+      padding-right: 15px; }
+      .results-content .result-card-light .card-feed .card-feed-main .card-post {
+        min-height: 85px;
+        padding: 10px 0;
+        border-bottom: 1px dotted #878787; }
+        .results-content .result-card-light .card-feed .card-feed-main .card-post .card-post-left {
+          font-weight: 500; }
+          .results-content .result-card-light .card-feed .card-feed-main .card-post .card-post-left span {
+            color: #029AE5;
+            font-weight: 500; }
+
+@media screen and (max-width: 39.9375em) {
+  .results-wrapper .results-search {
+    padding: 0; }
+
+  .results-content .result-card-light .card-info .card-contact {
+    border: 0; }
+
+  .results-content .result-card-dark .card-info .card-contact {
+    border: 0; } }
 /**************************
 GLOBALS
 **************************/
@@ -174,7 +375,7 @@ GLOBALS
   margin-left: 5px !important; }
 
 .margin-right-5 {
-  margin-bottom: 5px !important; }
+  margin-right: 5px !important; }
 
 .margin-bottom-10 {
   margin-bottom: 10px !important; }
@@ -186,7 +387,7 @@ GLOBALS
   margin-left: 10px !important; }
 
 .margin-right-10 {
-  margin-bottom: 10px !important; }
+  margin-right: 10px !important; }
 
 .margin-bottom-15 {
   margin-bottom: 15px !important; }
@@ -198,7 +399,7 @@ GLOBALS
   margin-left: 15px !important; }
 
 .margin-right-15 {
-  margin-bottom: 15px !important; }
+  margin-right: 15px !important; }
 
 .margin-bottom-20 {
   margin-bottom: 20px !important; }
@@ -210,7 +411,7 @@ GLOBALS
   margin-left: 20px !important; }
 
 .margin-right-20 {
-  margin-bottom: 20px !important; }
+  margin-right: 20px !important; }
 
 .margin-bottom-25 {
   margin-bottom: 25px !important; }
@@ -222,7 +423,7 @@ GLOBALS
   margin-left: 25px !important; }
 
 .margin-right-25 {
-  margin-bottom: 25px !important; }
+  margin-right: 25px !important; }
 
 .margin-bottom-30 {
   margin-bottom: 30px !important; }
@@ -234,7 +435,7 @@ GLOBALS
   margin-left: 30px !important; }
 
 .margin-right-30 {
-  margin-bottom: 30px !important; }
+  margin-right: 30px !important; }
 
 .margin-bottom-35 {
   margin-bottom: 35px !important; }
@@ -246,7 +447,7 @@ GLOBALS
   margin-left: 35px !important; }
 
 .margin-right-35 {
-  margin-bottom: 35px !important; }
+  margin-right: 35px !important; }
 
 .row.row-negative {
   margin-left: -.9375rem;
@@ -255,8 +456,31 @@ GLOBALS
 .important-field {
   background-color: #CACACA; }
 
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.blue-select {
+  background-color: #C8DAEB;
+  border-color: #578EC2;
+  color: black; }
+
+.text-right {
+  text-align: right; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
 select, input {
   border-color: #878787 !important; }
+
+.full {
+  width: 100%; }
 
 button.radius, .button.radius {
   border-radius: 3px; }
@@ -264,6 +488,9 @@ button.radius, .button.radius {
 button.round, .button.round {
   border-radius: 1000px; }
 
+/**************************
+QUERY
+**************************/
 @media screen and (max-width: 39.9375em) {
   .content-wrapper {
     padding: 0 25px; } }

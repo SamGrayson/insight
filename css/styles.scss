@@ -6,6 +6,12 @@ $insightMain: #3C3C3C;
 $insightLightGray: #878787;
 $insightImpGray: #CACACA;
 $insightBlue: #578EC2;
+$insightLightBlue: #C8DAEB;
+$insightYellow: #F8C103;
+$insightRed: #A24741;
+$insightDefault: #F9F9F9;
+$insightDefaultBlue: #029AE5;
+$insightGreen: #57D05C;
 
 h1, h2, h3, h4, h5, h6, li, ul {
   margin: 0;
@@ -70,7 +76,7 @@ GLOBALS
     margin-left: $i * 5px !important;
   }
   .margin-right-#{$i*5} {
-    margin-bottom: $i * 5px !important;
+    margin-right: $i * 5px !important;
   }
 }
 
@@ -83,14 +89,48 @@ GLOBALS
   background-color: $insightImpGray;
 }
 
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.blue-select {
+  background-color: $insightLightBlue;
+  border-color: $insightBlue;
+  color: black;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
 select, input {
   border-color: $insightLightGray !important;
+}
+
+.full {
+  width: 100%;
 }
 
 button.radius, .button.radius {
     border-radius: 3px; }
 button.round, .button.round {
   border-radius: 1000px; }
+
+/**************************
+QUERY
+**************************/
 
 @media screen and (max-width: 39.9375em) {
   .content-wrapper {

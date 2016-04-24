@@ -1,0 +1,272 @@
+.results-wrapper {
+  margin-top: 75px;
+  width: 100%;
+  .results-search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0 100px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid $insightLightGray;
+    button {
+      background-color: $insightLightBlue;
+      border-color: $insightBlue;
+      color: black;
+    }
+  }
+  .results-title {
+    padding: 15px;
+  }
+}
+
+.results-content {
+  // DARK CARD
+  .result-card-dark {
+    margin-bottom: 15px;
+    border: 1px solid $insightLightGray;
+    width:100%;
+    .card-title {
+      background-color: $insightLightGray;
+      padding: 10px 20px;
+      height: 50px;
+      .title {
+        color: $insightYellow;
+        font-size: 22px;
+        font-weight: 600;
+      }
+      .card-actions {
+        color: $insightImpGray;
+        font-size: 22px;
+        font-weight: 600;
+        span {
+          &:hover {
+            color: lighten($insightImpGray, 20%);
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .card-info {
+      border-bottom: 1px solid $insightLightGray;
+      >div {
+        padding: 15px 25px;
+        height: 100%;
+      }
+      .card-contact {
+        border-right: 1px solid $insightLightGray;
+      }
+      span {
+        color: $insightRed;
+        font-weight: 500;
+        a {
+          color: $insightRed;
+          font-weight: 500;
+        }
+      }
+      .info-title {
+        font-size: 18px;
+        padding-bottom: 15px;
+        border-bottom: 1px dotted $insightLightGray;
+      }
+      .more-info {
+        font-size: 14px;
+        margin-bottom: 25px;
+      }
+    }
+    .card-feed {
+      background-color: $insightDefault;
+      padding: 20px 0;
+      font-size: 14px;
+      .card-feed-main {
+        overflow-y: scroll;
+        height: 300px;
+        width: 100%;
+        padding-right: 15px;
+        .card-post {
+          min-height: 85px;
+          padding: 10px 0;
+          border-bottom: 1px dotted $insightLightGray;
+          .card-post-left {
+            // width: 150px
+            font-weight: 500;
+            span {
+              color: $insightRed;
+              font-weight: 500;
+            }
+          }
+          .card-post-content {
+            // margin-left: 175px;
+          }
+        }
+      }
+    }
+  }
+  // LIGHT CARD
+  .result-card-light {
+    margin-bottom: 15px;
+    border: 1px solid $insightLightGray;
+    width:100%;
+    .card-title {
+      background-color: #fff;
+      border-bottom: 1px solid $insightLightGray;
+      padding: 10px 20px;
+      height: 50px;
+      position: relative;
+      .title {
+        font-size: 22px;
+        font-weight: 600;
+        select {
+          height: 30px;
+          font-size: 12px;
+          width: 150px;
+          margin: 0;
+        }
+        span {
+        }
+      }
+      .card-left-actions {
+        display: inline-block;
+        color: $insightImpGray;
+        position: relative;
+        font-size:16px;
+        .middle-button {
+          border-left: 1px solid $insightLightGray;
+          border-right: 1px solid $insightLightGray;
+        }
+        button {
+          display: inline-block;
+          position: relative;
+          font-size: 22px;
+          width:45px;
+          &:hover {
+            color: $insightLightGray;
+            cursor: pointer;
+          }
+        };
+      }
+      .card-actions {
+        color: $insightImpGray;
+        font-size: 22px;
+        font-weight: 600;
+        position: relative;
+        top: -2px;
+        .view {
+          border-color: $insightDefaultBlue;
+          color: $insightDefaultBlue;
+          &:hover {
+            background-color: $insightDefaultBlue;
+            color: #fff;
+            cursor: pointer;
+          }
+        }
+        .edit {
+          border-color: $insightGreen;
+          color: $insightGreen;
+          &:hover {
+            background-color: $insightGreen;
+            color: #fff;
+            cursor: pointer;
+          }
+        }
+        .group-right {
+          display: inline-block;
+          border-left: 1px solid $insightLightGray;
+          padding-left: 6px;
+        }
+        button {
+          display: inline-block;
+          position: relative;
+          font-size: 18px;
+          width:33px;
+          border: 1px solid $insightLightGray;
+          border-radius: 50%;
+          padding: 6px;
+          margin: 0 3px;
+          &:hover {
+            color: $insightLightGray;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .card-info {
+      border-bottom: 1px solid $insightLightGray;
+      >div {
+        padding: 15px 25px;
+        height: 100%;
+      }
+      .card-contact {
+        border-right: 1px solid $insightLightGray;
+        background-color: $insightDefault;
+      }
+      span {
+        color: $insightDefaultBlue;
+        font-weight: 500;
+        a {
+          color: $insightDefaultBlue;
+          font-weight: 500;
+        }
+      }
+      .info-title {
+        font-size: 18px;
+        padding-bottom: 5px;
+        font-weight: 600;
+      }
+      .screening-status {
+        border-bottom: 1px solid $insightLightGray;
+      }
+      .more-info {
+        font-size: 14px;
+        margin-bottom: 25px;
+      }
+    }
+    .last-contact {
+      padding: 12px 15px;
+      border-bottom: 1px solid $insightLightGray;
+      span {
+        color: $insightDefaultBlue;
+        font-weight: 500;
+      }
+    }
+    .card-feed {
+      background-color: $insightDefault;
+      padding: 20px 0;
+      font-size: 14px;
+      .card-feed-main {
+        overflow-y: scroll;
+        height: 300px;
+        width: 100%;
+        padding-right: 15px;
+        .card-post {
+          min-height: 85px;
+          padding: 10px 0;
+          border-bottom: 1px dotted $insightLightGray;
+          .card-post-left {
+            // width: 150px
+            font-weight: 500;
+            span {
+              color: $insightDefaultBlue;
+              font-weight: 500;
+            }
+          }
+          .card-post-content {
+            // margin-left: 175px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 39.9375em) {
+  .results-wrapper .results-search {
+    padding: 0;
+  }
+  .results-content .result-card-light .card-info .card-contact {
+    border: 0;
+  }
+  .results-content .result-card-dark .card-info .card-contact {
+    border: 0;
+  }
+}

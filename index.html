@@ -6,13 +6,14 @@
   <title>Insight</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
 <div class="page-wrapper">
 <!-- HEADER -->
-<div class="nav-wrapper">
+<section class="nav-wrapper">
     <div class="nav-title">
       <div class="title">ComTrak 2.0</div>
       <div>Insight Global Portal</div>
@@ -62,14 +63,14 @@
         </li>
       </ul>
     </div>
-</div>
+</section>
 <div class="nav-page-title">
   <span>MAIN NAVIGATION</span>
 </div>
 
 
 <!-- NAVIGATION -->
-  <div class="content-wrapper">
+  <section class="content-wrapper">
     <div class="content-header">
       <div class="content-title">
         <b>Staffing:</b> <span>Find Candidates</span>
@@ -110,11 +111,11 @@
             <div class="small-12 medium-6 column">
               <label>
                 <label>*Office
-                  <select placeholder="select" class="important-field">
-                    <option value="husker">Select</option>
-                    <option value="starbuck">Option 2</option>
-                    <option value="hotdog">Option 3</option>
-                    <option value="apollo">Option 4</option>
+                  <select class="important-field">
+                    <option value="1">Select</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                    <option value="4">Option 4</option>
                   </select>
                 </label>
               </label>
@@ -122,11 +123,11 @@
             <div class="small-12 medium-6 column">
               <label>
                 <label>*Recruiter
-                  <select placeholder="select" class="important-field">
-                    <option value="husker">Select</option>
-                    <option value="starbuck">Option 2</option>
-                    <option value="hotdog">Option 3</option>
-                    <option value="apollo">Option 4</option>
+                  <select class="important-field">
+                    <option value="1">Select</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                    <option value="4">Option 4</option>
                   </select>
                 </label>
               </label>
@@ -159,11 +160,11 @@
             </div>
             <div class="small-12 medium-6 column">
               <label> Work Eligibility
-                <select placeholder="select" class="important-field">
-                  <option value="husker">Select</option>
-                  <option value="starbuck">Option 2</option>
-                  <option value="hotdog">Option 3</option>
-                  <option value="apollo">Option 4</option>
+                <select class="important-field">
+                  <option value="1">Select</option>
+                  <option value="2">Option 2</option>
+                  <option value="3">Option 3</option>
+                  <option value="4">Option 4</option>
                 </select>
               </label>
             </div>
@@ -171,11 +172,276 @@
         </form>
       </div>
     </div>
+
     <!-- RESULTS -->
     <div class="results-wrapper">
-
+      <div class="results-search">
+        <div class="row row-negative">
+          <div class="small-12 column">
+            <div class="input-group">
+              <input type="text" class="input-group-field" placeholder="XXX results">
+              <div class="input-group-button">
+                <button type="submit" class="button radius margin-left-10" >Go</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="results-title">
+        <div class="row row-negative">
+          <div class="small-12 medium-6 column text-left"><label class="middle"><b>Showing: 2 of 102 Results Found</b></label></div>
+          <div class="samll-12 medium-6 column text-right">
+            <div class="row">
+            <span class="small-4 medium-6 column text-right"><label for="middle-label" class="text-right middle"><b>Sort by:</b></label></span>
+             <select class="blue-select small-8 medium-6 column">
+                <option value="1">Select</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+                <option value="4">Option 4</option>
+            </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="results-content">
+        <div class="result-card-dark row">
+          <div class="card-title">
+            <div class="pull-left title middle">
+              Benjamin Smith
+            </div>
+            <div class="card-actions pull-right">
+              <span><i class="fa fa-external-link"></i></span>
+              <span class="margin-left-10"><i class="fa fa-ellipsis-v"></i></span>
+            </div>
+          </div>
+          <div class="card-info row no-margin">
+            <div class="card-contact medium-6 small-12 column">
+              <div class="info-title"><b>Recent Title:</b> <span>Project Manager</span></div>
+              <div class="more-info margin-top-10">
+                <div class="margin-top-10"><b>Email: </b><span><a href="">bhsmith@premiersolutions.com</a></span></div>
+                <div class="margin-top-10"><b>Home: </b><span>+1.555.345.0000</span></div>
+                <div class="margin-top-10"><b>Mobile: </b><span>+1.555.345.0000</span></div>
+                <div class="margin-top-10"><b>Address: </b><span>Atlanta, GA 30129</span></div>
+              </div>
+            </div>
+            <div class="card-status medium-6 small-12 column">
+              <div class="info-title"><b>Screening Status:</b> <span>100%</span></div>
+              <div class="more-info margin-top-10">
+                <div class="margin-top-10"><b>DNU Status: </b><span><a href="">Usable</a></span></div>
+                <div class="margin-top-10"><b>Work Authorization: </b><span>U.S. Citizen</span></div>
+                <div class="margin-top-10"><b>In-House Visit: </b><span>5/5</span></div>
+                <div class="margin-top-10"><b>History: </b><span> Submittals (3) | Interviews (2) | Hires (0)</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-feed small-12 column">
+            <div class="card-feed-top">
+              <div class="small-12 medium-4 large-3 column">
+                <select class="blue-select column full">
+                   <option value="1">Note Type</option>
+                   <option value="2">Option 2</option>
+                   <option value="3">Option 3</option>
+                   <option value="4">Option 4</option>
+               </select>
+              </div>
+              <div class="small-12 medium-8 large-9 column">
+                <div class="input-group">
+                  <input type="text" class="input-group-field" placeholder="Enter Notes">
+                  <div class="input-group-button">
+                    <button type="submit" class="button secondary radius hollow margin-left-10"><i class="fi-arrows-expand"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-feed-wrapper small-12 column">
+              <div class="card-feed-main">
+                <div class="card-post row no-margin">
+                  <div class="card-post-left medium-3 large-2 column no-padding">
+                    <div>08.14.15</div>
+                    <div>Fri: 4:23pm EST</div>
+                    <span>CPalmer</span>
+                  </div>
+                  <div class="card-post-content medium-9 large-10 column no-padding">
+                    <b>Email:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat veniam velit laudantium commodi odit, voluptatem optio, delectus vero ullam maiores corporis minus minima, explicabo dicta repellat quisquam ipsa a repudiandae!
+                  </div>
+                </div>
+                <div class="card-post row no-margin">
+                  <div class="card-post-left medium-3 large-2 column no-padding">
+                    <div>08.14.15</div>
+                    <div>Fri: 4:23pm EST</div>
+                    <span>CPalmer</span>
+                  </div>
+                  <div class="card-post-content medium-9 large-10 column no-padding">
+                    <b>Email:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat veniam velit laudantium commodi odit, voluptatem optio, delectus vero ullam maiores corporis minus minima, explicabo dicta repellat quisquam ipsa a repudiandae!
+                  </div>
+                </div>
+                <div class="card-post row no-margin">
+                  <div class="card-post-left medium-3 large-2 column no-padding">
+                    <div>08.14.15</div>
+                    <div>Fri: 4:23pm EST</div>
+                    <span>CPalmer</span>
+                  </div>
+                  <div class="card-post-content medium-9 large-10 column no-padding">
+                    <b>Email:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat veniam velit laudantium commodi odit, voluptatem optio, delectus vero ullam maiores corporis minus minima, explicabo dicta repellat quisquam ipsa a repudiandae!
+                  </div>
+                </div>
+                <div class="card-post row no-margin">
+                  <div class="card-post-left medium-3 large-2 column no-padding">
+                    <div>08.14.15</div>
+                    <div>Fri: 4:23pm EST</div>
+                    <span>CPalmer</span>
+                  </div>
+                  <div class="card-post-content medium-9 large-10 column no-padding">
+                    <b>Email:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat veniam velit laudantium commodi odit, voluptatem optio, delectus vero ullam maiores corporis minus minima, explicabo dicta repellat quisquam ipsa a repudiandae!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="result-card-light row">
+          <div class="card-title">
+            <div class="pull-left title middle">
+              <select class="important-field column">
+                 <option value="1">Actions</option>
+                 <option value="2">Option 2</option>
+                 <option value="3">Option 3</option>
+                 <option value="4">Option 4</option>
+             </select>
+             <div class="card-left-actions hide-for-small-only">
+               <div class="small button-group no-margin">
+                 <button class=""><i class="fa fa-print"></i></button>
+                 <button class="middle-button"><i class="fa fa-envelope"></i></button>
+                 <button class=""><i class="fa fa-external-link"></i></button>
+               </div>
+             </div>
+            </div>
+            <div class="card-actions pull-right hide-for-small-only">
+              <button class="view"><i class="fa fa-eye"></i></button>
+              <div class="small button-group group-right no-margin">
+                <button class="edit"><i class="fa fa-pencil"></i></button>
+                <button class="trash"><i class="fa fa-trash-o"></i></button>
+              </div>
+            </div>
+            <div class="dropdown-actions" style="top: -5px; position: relative;">
+              <ul class="pull-right dropdown menu show-for-small-only" data-dropdown-menu>
+                <li>
+                  <a href="#"><i class="fa fa-navicon"></i></a>
+                  <ul class="menu insight-dropdown-nav">
+                    <li>
+                      <a href="#"><i class="fa fa-print"></i> Print</a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-envelope"></i> Email</a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-external-link"></i> Link</a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-eye"></i> View</a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-pencil"></i> Edit</a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-trash alert"></i> Delete</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card-info row no-margin">
+            <div class="card-contact medium-6 small-12 column">
+              <div class="info-title"><span class="margin-right-5">Benjamin Smith</span> | <span class="margin-left-5">ACTIVE</span></div>
+              <div class="more-info margin-top-5">
+                <div class=""><b>Email: </b><span><a href="">bhsmith@premiersolutions.com</a></span></div>
+                <div class=""><b>Home: </b><span>+1.555.345.0000</span></div>
+                <div class=""><b>Mobile: </b><span>+1.555.345.0000</span></div>
+                <div class=""><b>Address: </b><span>Atlanta, GA 30129</span></div>
+              </div>
+            </div>
+            <div class="card-status medium-6 small-12 column">
+              <div class="info-title screening-status"><b>SCREENING STATUS:</b> <span>100%</span></div>
+              <div class="more-info margin-top-5">
+                <div class=""><b>DNU Status: </b><span><a href="">Usable</a></span></div>
+                <div class=""><b>Work Authorization: </b><span>U.S. Citizen</span></div>
+                <div class=""><b>In-House Visit: </b><span>5/5</span></div>
+                <div class=""><b>History: </b><span> Submittals (3) | Interviews (2) | Hires (0)</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="last-contact">
+            <b>Last Contact: </b><span>03.23.16</span> – <span>CPalmer</span>
+          </div>
+          <div class="card-feed small-12 column">
+            <div class="card-feed-top">
+              <div class="small-12 medium-4 large-3 column">
+                <select class="important-field column full">
+                   <option value="1">Note Type</option>
+                   <option value="2">Option 2</option>
+                   <option value="3">Option 3</option>
+                   <option value="4">Option 4</option>
+               </select>
+              </div>
+              <div class="small-12 medium-8 large-9 column">
+                <div class="input-group">
+                  <input type="text" class="input-group-field" placeholder="Enter Notes">
+                  <div class="input-group-button">
+                    <button type="submit" class="button secondary radius hollow margin-left-10"><i class="fi-arrows-expand"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-feed-wrapper small-12 column">
+              <div class="card-feed-main">
+                <div class="card-post row no-margin">
+                  <div class="card-post-left medium-3 large-2 column no-padding">
+                    <div>08.14.15</div>
+                    <div>Fri: 4:23pm EST</div>
+                    <span>CPalmer</span>
+                  </div>
+                  <div class="card-post-content medium-9 large-10 column no-padding">
+                    <b>Email:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat veniam velit laudantium commodi odit, voluptatem optio, delectus vero ullam maiores corporis minus minima, explicabo dicta repellat quisquam ipsa a repudiandae!
+                  </div>
+                </div>
+                <div class="card-post row no-margin">
+                  <div class="card-post-left medium-3 large-2 column no-padding">
+                    <div>08.14.15</div>
+                    <div>Fri: 4:23pm EST</div>
+                    <span>CPalmer</span>
+                  </div>
+                  <div class="card-post-content medium-9 large-10 column no-padding">
+                    <b>Email:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat veniam velit laudantium commodi odit, voluptatem optio, delectus vero ullam maiores corporis minus minima, explicabo dicta repellat quisquam ipsa a repudiandae!
+                  </div>
+                </div>
+                <div class="card-post row no-margin">
+                  <div class="card-post-left medium-3 large-2 column no-padding">
+                    <div>08.14.15</div>
+                    <div>Fri: 4:23pm EST</div>
+                    <span>CPalmer</span>
+                  </div>
+                  <div class="card-post-content medium-9 large-10 column no-padding">
+                    <b>Email:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat veniam velit laudantium commodi odit, voluptatem optio, delectus vero ullam maiores corporis minus minima, explicabo dicta repellat quisquam ipsa a repudiandae!
+                  </div>
+                </div>
+                <div class="card-post row no-margin">
+                  <div class="card-post-left medium-3 large-2 column no-padding">
+                    <div>08.14.15</div>
+                    <div>Fri: 4:23pm EST</div>
+                    <span>CPalmer</span>
+                  </div>
+                  <div class="card-post-content medium-9 large-10 column no-padding">
+                    <b>Email:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat veniam velit laudantium commodi odit, voluptatem optio, delectus vero ullam maiores corporis minus minima, explicabo dicta repellat quisquam ipsa a repudiandae!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 </div>
 
 
